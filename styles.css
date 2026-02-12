@@ -38,28 +38,27 @@ body {
 	width: 90%;
 	max-width: 1100px;
 	margin: auto;
-	padding: 0;
 }
 
 /* ===== Header ===== */
 
 header {
 	background: linear-gradient(135deg, #0f172a, #1e293b);
-	padding: 160px 0 130px 0;  /* Increased height without 100vh */
+	padding: 120px 0 70px 0;   /* Controlled spacing */
 	text-align: center;
 	border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 header h1 {
 	font-size: 2.8rem;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 	letter-spacing: 1px;
 }
 
 header p {
 	color: #94a3b8;
 	font-size: 1.1rem;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 }
 
 nav ul {
@@ -81,13 +80,13 @@ nav a:hover {
 /* ===== Sections ===== */
 
 section {
-	padding: 110px 0;
+	padding: 80px 0;  /* Reduced gap */
 	border-top: 1px solid rgba(255,255,255,0.04);
 }
 
 section h2 {
 	font-size: 2.2rem;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -101,7 +100,7 @@ section h2 {
 
 .project-card {
 	background: #162033;
-	padding: 30px;
+	padding: 28px;
 	border-radius: 14px;
 	transition: all 0.3s ease;
 	border: 1px solid rgba(255,255,255,0.05);
@@ -136,7 +135,7 @@ section h2 {
 }
 
 .skills {
-	margin-top: 25px;
+	margin-top: 20px;
 	color: #94a3b8;
 	font-size: 0.95rem;
 }
@@ -172,7 +171,7 @@ footer {
 	background: #0f172a;
 	text-align: center;
 	padding: 30px 0;
-	margin-top: 80px;
+	margin-top: 60px;
 	color: #94a3b8;
 	border-top: 1px solid rgba(255,255,255,0.05);
 }
